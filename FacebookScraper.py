@@ -197,6 +197,6 @@ class FacebookScraper:
 if __name__ == '__main__':
     FBS = FacebookScraper()
     # FBS.public_page_data_scrape(login=True)
-    wishtime = properties().wishtime
-    FBS.send_private_msg(["yantung21"],
-                         "Hi YanTung, Happy Birthday! I wanted to be the first one to wish you. So if you can read this my program ran perfectly :D . Enjoy your day!")
+    wishtime = properties().wishtime # define a time in the properties file
+    FBS.send_private_msg(["You fb friend id"],
+                         "Your msg here")

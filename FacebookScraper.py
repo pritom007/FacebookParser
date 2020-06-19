@@ -1,6 +1,6 @@
-'''
+"""
 This is the main file. Run this file after providing the credentials in 'info.properties' file.
-'''
+"""
 
 import datetime
 import os
